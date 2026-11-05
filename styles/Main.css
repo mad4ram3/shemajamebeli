@@ -1,0 +1,22 @@
+.Main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1080px;
+    width: 1879px;
+}
+
+.Main-img-Scene{
+    position: relative;
+    left: 20px;
+    color: #F0EEEA;
+    height: 918px;
+    width: 100%;
+    min-height: 0;
+}
+
+.Main-img{
+    border: 2px dashed black;
+    height: 100%;
+    width: calc(100% - 50px);
+}
